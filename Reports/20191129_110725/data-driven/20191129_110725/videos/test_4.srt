@@ -1,0 +1,32 @@
+1
+00:00:00,001 --> 00:00:00,001
+1. request = findTestObject("form-data", ["username":username])
+
+2
+00:00:00,084 --> 00:00:00,086
+5. println(getVariables().get("username"))
+
+3
+00:00:00,087 --> 00:00:00,087
+9. response = sendRequestAndVerify(request)
+
+4
+00:00:07,121 --> 00:00:07,122
+1. request = getInstance().getCurrentRequest()
+
+5
+00:00:07,122 --> 00:00:07,123
+5. response = getInstance().getCurrentResponse()
+
+6
+00:00:07,123 --> 00:00:07,124
+9. username = getVariables().get("username")
+
+7
+00:00:07,125 --> 00:00:07,126
+13. println(username)
+
+8
+00:00:07,127 --> 00:00:07,127
+13. println(response.getStatusCode())
+

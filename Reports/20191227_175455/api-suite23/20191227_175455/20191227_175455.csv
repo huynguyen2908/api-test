@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2019-12-27 17:54:57,2019-12-27 17:55:02,4.577s,FAILED
+,,,,,,,
+Test Cases/mockoon,,,,2019-12-27 17:54:58,2019-12-27 17:55:02,4.249s,FAILED
+"sendRequest(findTestObject(""mockoon""))",,,,2019-12-27 17:54:58,2019-12-27 17:55:00,1.493s,FAILED
+Video,,,,2019-12-27 17:55:02,2019-12-27 17:55:02,0.001s,PASSED

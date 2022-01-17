@@ -1,0 +1,4 @@
+1
+00:00:00,249 --> 00:00:00,256
+1. response = sendRequest(findTestObject("wsdl", ["operandA":80]))
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>url-encoded</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>47765797</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>url-encoded</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-69</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>33364700</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>2689700</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>91ae465b-cac6-44c7-9e44-c67f7a4c023e</testCaseGuid>
+</TestCaseEntity>

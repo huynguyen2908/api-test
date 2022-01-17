@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>api</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>11</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 12   project 12   project 12   project 12   project 12   project 12   ','testCaseFolderMappeds':[],'id':84504}</value>
+         </entry>
+         <entry>
+            <key>22</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 9','testCaseFolderMappeds':[],'id':84501}</value>
+         </entry>
+         <entry>
+            <key>12</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 13','testCaseFolderMappeds':[],'id':84505}</value>
+         </entry>
+         <entry>
+            <key>13</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 14','testCaseFolderMappeds':[],'id':84506}</value>
+         </entry>
+         <entry>
+            <key>14</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 2','testCaseFolderMappeds':[],'id':84493}</value>
+         </entry>
+         <entry>
+            <key>15</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 3','testCaseFolderMappeds':[],'id':84494}</value>
+         </entry>
+         <entry>
+            <key>16</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 4','testCaseFolderMappeds':[],'id':84495}</value>
+         </entry>
+         <entry>
+            <key>17</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 5','testCaseFolderMappeds':[],'id':84496}</value>
+         </entry>
+         <entry>
+            <key>18</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 6','testCaseFolderMappeds':[],'id':84497}</value>
+         </entry>
+         <entry>
+            <key>19</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 7','testCaseFolderMappeds':[],'id':84498}</value>
+         </entry>
+         <entry>
+            <key>0</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'qConnect - Sample Project','testCaseFolderMappeds':[],'id':6178}</value>
+         </entry>
+         <entry>
+            <key>1</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Demo Project','testCaseFolderMappeds':[],'id':54869}</value>
+         </entry>
+         <entry>
+            <key>2</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Demo qTest','testCaseFolderMappeds':[],'id':46078}</value>
+         </entry>
+         <entry>
+            <key>3</key>
+            <value>{'testSuiteFolderMappeds':['Test Suites'],'name':'Dev test','testCaseFolderMappeds':['Test Cases'],'id':40372}</value>
+         </entry>
+         <entry>
+            <key>4</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Katalon Automation Practices','testCaseFolderMappeds':[],'id':81234}</value>
+         </entry>
+         <entry>
+            <key>5</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Katalon GO!','testCaseFolderMappeds':[],'id':36525}</value>
+         </entry>
+         <entry>
+            <key>6</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'Katalon - qTest Integration','testCaseFolderMappeds':[],'id':83888}</value>
+         </entry>
+         <entry>
+            <key>7</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'KAT Automation Test','testCaseFolderMappeds':[],'id':39519}</value>
+         </entry>
+         <entry>
+            <key>8</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 1','testCaseFolderMappeds':[],'id':84492}</value>
+         </entry>
+         <entry>
+            <key>9</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 10','testCaseFolderMappeds':[],'id':84502}</value>
+         </entry>
+         <entry>
+            <key>20</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 8','testCaseFolderMappeds':[],'id':84500}</value>
+         </entry>
+         <entry>
+            <key>10</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 11','testCaseFolderMappeds':[],'id':84503}</value>
+         </entry>
+         <entry>
+            <key>21</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'project 8','testCaseFolderMappeds':[],'id':84499}</value>
+         </entry>
+      </properties>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>d9902d6d-46eb-4c6a-96fa-2d6a5e31059a</UUID>
+   <migratedVersion>5.9.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/huynguyen/Katalon Studio/api/api.prj</projectFileLocation>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <type>WEBSERVICE</type>
+</Project>

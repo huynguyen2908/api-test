@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2019-12-30 15:21:28,2019-12-30 15:21:37,9.055s,PASSED
+,,,,,,,
+Test Cases/url-encoded,,,,2019-12-30 15:21:28,2019-12-30 15:21:37,8.682s,PASSED
+"requestObject = findTestObject(""url-encoded"")",,,,2019-12-30 15:21:29,2019-12-30 15:21:30,0.692s,PASSED
+response = sendRequestAndVerify(requestObject),,,,2019-12-30 15:21:30,2019-12-30 15:21:35,4.746s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-12-30 15:21:35,2019-12-30 15:21:35,0.013s,PASSED
+runtimeMxBean = ManagementFactory.getRuntimeMXBean(),,,,2019-12-30 15:21:35,2019-12-30 15:21:35,0.038s,PASSED
+arguments = runtimeMxBean.getInputArguments(),,,,2019-12-30 15:21:35,2019-12-30 15:21:35,0.018s,PASSED
+println(arguments),,,,2019-12-30 15:21:35,2019-12-30 15:21:35,0.008s,PASSED
+"println(System.getProperty(""test""))",,,,2019-12-30 15:21:35,2019-12-30 15:21:35,0.008s,PASSED
+"println(System.getProperty(""test1""))",,,,2019-12-30 15:21:35,2019-12-30 15:21:35,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-30 15:21:35,2019-12-30 15:21:35,0.010s,PASSED
+Video,,,,2019-12-30 15:21:37,2019-12-30 15:21:37,0.001s,PASSED

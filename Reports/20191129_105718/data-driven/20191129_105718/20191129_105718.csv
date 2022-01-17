@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+data-driven,,,,2019-11-29 10:57:21,2019-11-29 10:57:55,33.914s,PASSED
+,,,,,,,
+Test Cases/requestbin,,,,2019-11-29 10:57:22,2019-11-29 10:57:33,11.257s,PASSED
+"requestObject = findTestObject(""requestbin"", [""productName"":productName, ""dog"":dog])",,,,2019-11-29 10:57:23,2019-11-29 10:57:23,0.585s,PASSED
+response1 = sendRequest(requestObject),,,,2019-11-29 10:57:23,2019-11-29 10:57:28,4.621s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2019-11-29 10:57:28,2019-11-29 10:57:28,0.013s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-11-29 10:57:28,2019-11-29 10:57:28,0.219s,PASSED
+"verifyElementPropertyValue(response1, ""success"", true)",,,,2019-11-29 10:57:28,2019-11-29 10:57:28,0.174s,PASSED
+response2 = sendRequestAndVerify(requestObject),,,,2019-11-29 10:57:28,2019-11-29 10:57:31,2.435s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,2019-11-29 10:57:31,2019-11-29 10:57:31,0.005s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-11-29 10:57:31,2019-11-29 10:57:31,0.013s,PASSED
+"verifyElementPropertyValue(response2, ""success"", true)",,,,2019-11-29 10:57:31,2019-11-29 10:57:31,0.026s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-29 10:57:31,2019-11-29 10:57:31,0.008s,PASSED
+Video,,,,2019-11-29 10:57:33,2019-11-29 10:57:33,0.001s,PASSED
+,,,,,,,
+Test Cases/requestbin,,,,2019-11-29 10:57:33,2019-11-29 10:57:39,5.929s,PASSED
+"requestObject = findTestObject(""requestbin"", [""productName"":productName, ""dog"":dog])",,,,2019-11-29 10:57:33,2019-11-29 10:57:33,0.273s,PASSED
+response1 = sendRequest(requestObject),,,,2019-11-29 10:57:33,2019-11-29 10:57:35,1.649s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2019-11-29 10:57:35,2019-11-29 10:57:35,0.003s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-11-29 10:57:35,2019-11-29 10:57:35,0.001s,PASSED
+"verifyElementPropertyValue(response1, ""success"", true)",,,,2019-11-29 10:57:35,2019-11-29 10:57:35,0.014s,PASSED
+response2 = sendRequestAndVerify(requestObject),,,,2019-11-29 10:57:35,2019-11-29 10:57:37,1.858s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,2019-11-29 10:57:37,2019-11-29 10:57:37,0.005s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-11-29 10:57:37,2019-11-29 10:57:37,0.007s,PASSED
+"verifyElementPropertyValue(response2, ""success"", true)",,,,2019-11-29 10:57:37,2019-11-29 10:57:37,0.037s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-29 10:57:37,2019-11-29 10:57:37,0.001s,PASSED
+Video,,,,2019-11-29 10:57:39,2019-11-29 10:57:39,0.001s,PASSED
+,,,,,,,
+Test Cases/form-data,,,,2019-11-29 10:57:39,2019-11-29 10:57:48,8.954s,PASSED
+"request = findTestObject(""form-data"", [""username"":username])",,,,2019-11-29 10:57:39,2019-11-29 10:57:39,0.174s,PASSED
+"println(getVariables().get(""username""))",,,,2019-11-29 10:57:39,2019-11-29 10:57:39,0.011s,PASSED
+response = sendRequestAndVerify(request),,,,2019-11-29 10:57:39,2019-11-29 10:57:46,6.622s,PASSED
+println(response.getStatusCode()),,,,2019-11-29 10:57:46,2019-11-29 10:57:46,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-29 10:57:46,2019-11-29 10:57:46,0.001s,PASSED
+Video,,,,2019-11-29 10:57:48,2019-11-29 10:57:48,0.001s,PASSED
+,,,,,,,
+Test Cases/form-data,,,,2019-11-29 10:57:48,2019-11-29 10:57:55,7.249s,PASSED
+"request = findTestObject(""form-data"", [""username"":username])",,,,2019-11-29 10:57:48,2019-11-29 10:57:48,0.105s,PASSED
+"println(getVariables().get(""username""))",,,,2019-11-29 10:57:48,2019-11-29 10:57:48,0.001s,PASSED
+response = sendRequestAndVerify(request),,,,2019-11-29 10:57:48,2019-11-29 10:57:53,5.092s,PASSED
+println(response.getStatusCode()),,,,2019-11-29 10:57:53,2019-11-29 10:57:53,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-29 10:57:53,2019-11-29 10:57:53,0.000s,PASSED
+Video,,,,2019-11-29 10:57:55,2019-11-29 10:57:55,0.001s,PASSED

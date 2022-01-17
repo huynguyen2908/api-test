@@ -1,0 +1,8 @@
+1
+00:00:00,332 --> 00:00:00,347
+1. requestObject = findTestObject("requestbin", ["productName":productName, "dog":dog])
+
+2
+00:00:00,639 --> 00:00:00,641
+5. response1 = sendRequest(requestObject)
+

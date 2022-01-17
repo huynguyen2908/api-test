@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="data-driven" time="43.364" tests="4" failures="0" errors="0">
+   <testsuite name="data-driven" tests="4" failures="0" errors="0" time="43.364" timestamp="2019-11-29 11:07:28" hostname="huynguyen - 192.168.34.29" id="Test Suites/data-driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725"/>
+         <property name="logFiles" value="/Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/execution0.log"/>
+         <property name="attachments" value="/Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_1.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_2.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_3.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_4.mov"/>
+         <property name="hostName" value="huynguyen - 192.168.34.29"/>
+         <property name="hostAddress" value="192.168.34.29"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.1.0.${buildNumber}"/>
+      </properties>
+      <testcase name="Test Cases/requestbin" time="9.969" classname="Test Cases/requestbin" status="PASSED">
+         <system-out><![CDATA[2019-11-29 11:07:29 - [TEST_CASE][PASSED] - Test Cases/requestbin: Test Cases/requestbin
+
+2019-11-29 11:07:30 - [TEST_STEP][PASSED] - requestObject = findTestObject("requestbin", ["productName":productName, "dog":dog]): null
+
+2019-11-29 11:07:30 - [TEST_STEP][PASSED] - response1 = sendRequest(requestObject): Send request successfully
+
+2019-11-29 11:07:33 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/requests/main/0.har
+
+2019-11-29 11:07:34 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-29 11:07:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2019-11-29 11:07:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-29 11:07:34 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-29 11:07:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response1, "success", true): Verify element property value successfully
+
+2019-11-29 11:07:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-29 11:07:34 - [TEST_STEP][PASSED] - response2 = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2019-11-29 11:07:36 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/requests/main/1.har
+
+2019-11-29 11:07:36 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-29 11:07:36 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-29 11:07:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "success", true): Verify element property value successfully
+
+2019-11-29 11:07:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - println(getVariables().get("productName")): null
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - println(getVariables().get("test")): null
+
+2019-11-29 11:07:37 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-29 11:07:37 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+2019-11-29 11:07:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "success", true): Verify element property value successfully
+
+2019-11-29 11:07:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-29 11:07:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-29 11:07:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/requestbin' .
+
+2019-11-29 11:07:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/requestbin' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_1.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/requestbin" time="6.258" classname="Test Cases/requestbin" status="PASSED">
+         <system-out><![CDATA[2019-11-29 11:07:39 - [TEST_CASE][PASSED] - Test Cases/requestbin: Test Cases/requestbin
+
+2019-11-29 11:07:39 - [TEST_STEP][PASSED] - requestObject = findTestObject("requestbin", ["productName":productName, "dog":dog]): null
+
+2019-11-29 11:07:39 - [TEST_STEP][PASSED] - response1 = sendRequest(requestObject): Send request successfully
+
+2019-11-29 11:07:41 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/requests/main/2.har
+
+2019-11-29 11:07:41 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-29 11:07:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2019-11-29 11:07:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-29 11:07:41 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-29 11:07:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response1, "success", true): Verify element property value successfully
+
+2019-11-29 11:07:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-29 11:07:41 - [TEST_STEP][PASSED] - response2 = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2019-11-29 11:07:43 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/requests/main/3.har
+
+2019-11-29 11:07:43 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-29 11:07:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "success", true): Verify element property value successfully
+
+2019-11-29 11:07:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - println(getVariables().get("productName")): null
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - println(getVariables().get("test")): null
+
+2019-11-29 11:07:43 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-29 11:07:43 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+2019-11-29 11:07:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "success", true): Verify element property value successfully
+
+2019-11-29 11:07:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-29 11:07:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-29 11:07:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/requestbin' .
+
+2019-11-29 11:07:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/requestbin' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_2.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/form-data" time="9.78" classname="Test Cases/form-data" status="PASSED">
+         <system-out><![CDATA[2019-11-29 11:07:45 - [TEST_CASE][PASSED] - Test Cases/form-data: Test Cases/form-data
+
+2019-11-29 11:07:45 - [TEST_STEP][PASSED] - request = findTestObject("form-data", ["username":username]): null
+
+2019-11-29 11:07:46 - [TEST_STEP][PASSED] - println(getVariables().get("username")): null
+
+2019-11-29 11:07:46 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(request): Send request and verify the response successfully
+
+2019-11-29 11:07:53 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/requests/main/4.har
+
+2019-11-29 11:07:53 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-29 11:07:53 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-29 11:07:53 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-29 11:07:53 - [TEST_STEP][PASSED] - username = getVariables().get("username"): null
+
+2019-11-29 11:07:53 - [TEST_STEP][PASSED] - println(username): null
+
+2019-11-29 11:07:53 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-29 11:07:53 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-29 11:07:53 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2019-11-29 11:07:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-29 11:07:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/form-data' .
+
+2019-11-29 11:07:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/form-data' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_3.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/form-data" time="9.221" classname="Test Cases/form-data" status="PASSED">
+         <system-out><![CDATA[2019-11-29 11:07:55 - [TEST_CASE][PASSED] - Test Cases/form-data: Test Cases/form-data
+
+2019-11-29 11:07:55 - [TEST_STEP][PASSED] - request = findTestObject("form-data", ["username":username]): null
+
+2019-11-29 11:07:55 - [TEST_STEP][PASSED] - println(getVariables().get("username")): null
+
+2019-11-29 11:07:55 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(request): Send request and verify the response successfully
+
+2019-11-29 11:08:02 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/requests/main/5.har
+
+2019-11-29 11:08:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-29 11:08:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-29 11:08:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-29 11:08:02 - [TEST_STEP][PASSED] - username = getVariables().get("username"): null
+
+2019-11-29 11:08:02 - [TEST_STEP][PASSED] - println(username): null
+
+2019-11-29 11:08:02 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-29 11:08:02 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-29 11:08:02 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2019-11-29 11:08:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-29 11:08:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/form-data' .
+
+2019-11-29 11:08:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/form-data' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191129_110725/data-driven/20191129_110725/videos/test_4.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-29 11:07:28 - [TEST_SUITE][PASSED] - data-driven: Test Cases/form-data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2019-12-04 17:49:06,2019-12-04 17:49:22,15.936s,PASSED
+,,,,,,,
+Test Cases/url-encoded,,,,2019-12-04 17:49:06,2019-12-04 17:49:13,6.773s,PASSED
+"requestObject = findTestObject(""url-encoded"")",,,,2019-12-04 17:49:07,2019-12-04 17:49:07,0.528s,PASSED
+response = sendRequestAndVerify(requestObject),,,,2019-12-04 17:49:07,2019-12-04 17:49:11,3.527s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-12-04 17:49:11,2019-12-04 17:49:11,0.013s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-04 17:49:11,2019-12-04 17:49:11,0.007s,PASSED
+Video,,,,2019-12-04 17:49:13,2019-12-04 17:49:13,0.001s,PASSED
+,,,,,,,
+Test Cases/requestbin,,,,2019-12-04 17:49:13,2019-12-04 17:49:19,6.239s,PASSED
+"requestObject = findTestObject(""requestbin"", [""productName"":productName, ""dog"":dog])",,,,2019-12-04 17:49:13,2019-12-04 17:49:13,0.231s,PASSED
+response1 = sendRequest(requestObject),,,,2019-12-04 17:49:13,2019-12-04 17:49:15,1.664s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2019-12-04 17:49:15,2019-12-04 17:49:15,0.003s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-12-04 17:49:15,2019-12-04 17:49:15,0.001s,PASSED
+"verifyElementPropertyValue(response1, ""success"", true)",,,,2019-12-04 17:49:15,2019-12-04 17:49:15,0.088s,PASSED
+response2 = sendRequestAndVerify(requestObject),,,,2019-12-04 17:49:15,2019-12-04 17:49:17,1.849s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,2019-12-04 17:49:17,2019-12-04 17:49:17,0.003s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-12-04 17:49:17,2019-12-04 17:49:17,0.002s,PASSED
+"verifyElementPropertyValue(response2, ""success"", true)",,,,2019-12-04 17:49:17,2019-12-04 17:49:17,0.031s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-04 17:49:17,2019-12-04 17:49:17,0.001s,PASSED
+Video,,,,2019-12-04 17:49:19,2019-12-04 17:49:19,0.001s,PASSED
+,,,,,,,
+Test Cases/mockoon,,,,2019-12-04 17:49:19,2019-12-04 17:49:22,2.566s,PASSED
+"sendRequest(findTestObject(""mockoon""))",,,,2019-12-04 17:49:19,2019-12-04 17:49:20,0.260s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-04 17:49:20,2019-12-04 17:49:20,0.002s,PASSED
+Video,,,,2019-12-04 17:49:22,2019-12-04 17:49:22,0.001s,PASSED

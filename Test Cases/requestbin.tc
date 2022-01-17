@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>requestbin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f14f1c6-4de0-48db-a70c-08aa22144ac8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>988d0f73-6513-40f0-a05f-99b72300db29</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>369ce5da-6793-42b9-a02f-6f1aa1284c03</id>
+      <masked>false</masked>
+      <name>dog</name>
+   </variable>
+</TestCaseEntity>

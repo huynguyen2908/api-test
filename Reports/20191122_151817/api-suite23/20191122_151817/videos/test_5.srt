@@ -1,0 +1,16 @@
+1
+00:00:00,055 --> 00:00:00,056
+1. request = findTestObject("follow-redirects")
+
+2
+00:00:00,099 --> 00:00:00,100
+5. request.setFollowRedirects(false)
+
+3
+00:00:00,101 --> 00:00:00,102
+9. response = sendRequest(request)
+
+4
+00:00:00,634 --> 00:00:00,635
+13. println(response.getStatusCode())
+

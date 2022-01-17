@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="soap" time="10.407" tests="1" failures="0" errors="0">
+   <testsuite name="soap" tests="1" failures="0" errors="0" time="10.407" timestamp="2020-03-30 16:14:18" hostname="huynguyen - 192.168.1.7" id="Test Suites/soap">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/huynguyen/Katalon Studio/api/Reports/20200330_161415/soap/20200330_161415"/>
+         <property name="logFiles" value="/Users/huynguyen/Katalon Studio/api/Reports/20200330_161415/soap/20200330_161415/execution0.log"/>
+         <property name="attachments" value="/Users/huynguyen/Katalon Studio/api/Reports/20200330_161415/soap/20200330_161415/videos/test_1.mov"/>
+         <property name="hostName" value="huynguyen - 192.168.1.7"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.3.1.${buildNumber}"/>
+      </properties>
+      <testcase name="Test Cases/wsdl" time="9.904" classname="Test Cases/wsdl" status="PASSED">
+         <system-out><![CDATA[2020-03-30 16:14:19 - [TEST_CASE][PASSED] - Test Cases/wsdl: Test Cases/wsdl
+
+2020-03-30 16:14:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("wsdl", ["operandA":80])): Send request successfully
+
+2020-03-30 16:14:24 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20200330_161415/soap/20200330_161415/requests/main/0.har
+
+2020-03-30 16:14:24 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-30 16:14:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-03-30 16:14:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-30 16:14:24 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-03-30 16:14:24 - [TEST_STEP][PASSED] - println(getElementPropertyValue(response, "AddResponse.AddResult")): null
+
+2020-03-30 16:14:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 100): Verify element property value successfully
+
+2020-03-30 16:14:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-30 16:14:24 - [TEST_STEP][PASSED] - bodyContent = response.getResponseBodyContent(): null
+
+2020-03-30 16:14:24 - [TEST_STEP][PASSED] - AddResponse = XmlSlurper().parseText(bodyContent): null
+
+2020-03-30 16:14:25 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("wsdl", ["operandA":10])): Send request and verify the response successfully
+
+2020-03-30 16:14:26 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20200330_161415/soap/20200330_161415/requests/main/1.har
+
+2020-03-30 16:14:26 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-03-30 16:14:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 30): Verify element property value successfully
+
+2020-03-30 16:14:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - println(getVariables().get("operandA")): null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - println(getVariables().get("operandB")): null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - println(getElementText(response, "AddResponse")): null
+
+2020-03-30 16:14:27 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-30 16:14:27 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-03-30 16:14:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 30): Verify element property value successfully
+
+2020-03-30 16:14:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - AddResult = AddResult: null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - println(AddResult.text()): null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - println(getElementText(response, "AddResponse.AddResult")): null
+
+2020-03-30 16:14:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-03-30 16:14:29 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/wsdl' .
+
+2020-03-30 16:14:29 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/wsdl' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20200330_161415/soap/20200330_161415/videos/test_1.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-30 16:14:18 - [TEST_SUITE][PASSED] - soap: Test Cases/wsdl]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

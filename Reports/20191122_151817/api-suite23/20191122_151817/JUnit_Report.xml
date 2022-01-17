@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="api-suite23" time="41.292" tests="6" failures="1" errors="0">
+   <testsuite name="api-suite23" tests="6" failures="1" errors="0" time="41.292" timestamp="2019-11-22 15:18:20" hostname="huynguyen - 192.168.37.126" id="Test Suites/api-suite23">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817"/>
+         <property name="logFiles" value="/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/execution0.log"/>
+         <property name="attachments" value="/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_1.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_2.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_3.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_4.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_5.mov, /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_6.mov"/>
+         <property name="hostName" value="huynguyen - 192.168.37.126"/>
+         <property name="hostAddress" value="192.168.37.126"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/url-encoded" time="9.447" classname="Test Cases/url-encoded" status="FAILED">
+         <failure type="FAILED" message="Test Cases/url-encoded FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at url-encoded.run(url-encoded:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574410697639.run(TempTestSuite1574410697639.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-22 15:18:21 - [TEST_CASE][FAILED] - Test Cases/url-encoded: Test Cases/url-encoded FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at url-encoded.run(url-encoded:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574410697639.run(TempTestSuite1574410697639.groovy:36)
+
+
+2019-11-22 15:18:21 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:21 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:21 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:22 - [TEST_STEP][PASSED] - requestObject = findTestObject("url-encoded"): null
+
+2019-11-22 15:18:23 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2019-11-22 15:18:28 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/0.har
+
+2019-11-22 15:18:28 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-22 15:18:28 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-22 15:18:28 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-22 15:18:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-22 15:18:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:28 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:28 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-22 15:18:28 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-22 15:18:28 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 201): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at url-encoded.run(url-encoded:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574410697639.run(TempTestSuite1574410697639.groovy:36)
+)
+
+2019-11-22 15:18:29 - [MESSAGE][FAILED] - Expected status code is '201' but actual status code is '200'
+
+2019-11-22 15:18:29 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at url-encoded.run(url-encoded:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574410697639.run(TempTestSuite1574410697639.groovy:36)
+)
+
+2019-11-22 15:18:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-22 15:18:29 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:29 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/url-encoded' .
+
+2019-11-22 15:18:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/url-encoded' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_1.mov]]]]></system-out>
+         <system-err><![CDATA[2019-11-22 15:18:21 - [TEST_CASE][FAILED] - Test Cases/url-encoded: Test Cases/url-encoded FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at url-encoded.run(url-encoded:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574410697639.run(TempTestSuite1574410697639.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/requestbin" time="7.975" classname="Test Cases/requestbin" status="PASSED">
+         <system-out><![CDATA[2019-11-22 15:18:31 - [TEST_CASE][PASSED] - Test Cases/requestbin: Test Cases/requestbin
+
+2019-11-22 15:18:31 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:31 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:31 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:31 - [TEST_STEP][PASSED] - requestObject = findTestObject("requestbin", ["productName":"soft drink 1"]): null
+
+2019-11-22 15:18:31 - [TEST_STEP][PASSED] - response1 = sendRequest(requestObject): Send request successfully
+
+2019-11-22 15:18:34 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/1.har
+
+2019-11-22 15:18:34 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-22 15:18:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2019-11-22 15:18:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:34 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response1, "success", true): Verify element property value successfully
+
+2019-11-22 15:18:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:34 - [TEST_STEP][PASSED] - response2 = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2019-11-22 15:18:36 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/2.har
+
+2019-11-22 15:18:36 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-22 15:18:36 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-22 15:18:36 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-22 15:18:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-22 15:18:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:36 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "success", true): Verify element property value successfully
+
+2019-11-22 15:18:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:36 - [TEST_STEP][PASSED] - println(getVariables().get("productName")): null
+
+2019-11-22 15:18:37 - [TEST_STEP][PASSED] - println(getVariables().get("test")): null
+
+2019-11-22 15:18:37 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-22 15:18:37 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-22 15:18:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+2019-11-22 15:18:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:37 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "success", true): Verify element property value successfully
+
+2019-11-22 15:18:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-22 15:18:37 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:37 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/requestbin' .
+
+2019-11-22 15:18:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/requestbin' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_2.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/wsdl" time="6.147" classname="Test Cases/wsdl" status="PASSED">
+         <system-out><![CDATA[2019-11-22 15:18:39 - [TEST_CASE][PASSED] - Test Cases/wsdl: Test Cases/wsdl
+
+2019-11-22 15:18:39 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:39 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:39 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("wsdl", ["operandA":80])): Send request successfully
+
+2019-11-22 15:18:41 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/3.har
+
+2019-11-22 15:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-22 15:18:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-22 15:18:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:41 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 100): Verify element property value successfully
+
+2019-11-22 15:18:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:41 - [TEST_STEP][PASSED] - bodyContent = response.getResponseBodyContent(): null
+
+2019-11-22 15:18:41 - [TEST_STEP][PASSED] - AddResponse = XmlSlurper().parseText(bodyContent): null
+
+2019-11-22 15:18:41 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("wsdl", ["operandA":10])): Send request and verify the response successfully
+
+2019-11-22 15:18:42 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/4.har
+
+2019-11-22 15:18:43 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-22 15:18:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 30): Verify element property value successfully
+
+2019-11-22 15:18:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - println(getVariables().get("operandA")): null
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - println(getVariables().get("operandB")): null
+
+2019-11-22 15:18:43 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-22 15:18:43 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-22 15:18:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 30): Verify element property value successfully
+
+2019-11-22 15:18:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-22 15:18:43 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:43 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/wsdl' .
+
+2019-11-22 15:18:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/wsdl' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_3.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/client-ssl-cert" time="2.539" classname="Test Cases/client-ssl-cert" status="PASSED">
+         <system-out><![CDATA[2019-11-22 15:18:45 - [TEST_CASE][PASSED] - Test Cases/client-ssl-cert: Test Cases/client-ssl-cert
+
+2019-11-22 15:18:45 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:45 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:45 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("client-ssl-cert-4")): Send request successfully
+
+2019-11-22 15:18:45 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/5.har
+
+2019-11-22 15:18:45 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-22 15:18:45 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2019-11-22 15:18:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-22 15:18:45 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:45 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:47 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/client-ssl-cert' .
+
+2019-11-22 15:18:47 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/client-ssl-cert' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_4.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/follow-redirects" time="2.67" classname="Test Cases/follow-redirects" status="PASSED">
+         <system-out><![CDATA[2019-11-22 15:18:47 - [TEST_CASE][PASSED] - Test Cases/follow-redirects: Test Cases/follow-redirects
+
+2019-11-22 15:18:47 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:47 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:47 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:47 - [TEST_STEP][PASSED] - request = findTestObject("follow-redirects"): null
+
+2019-11-22 15:18:47 - [TEST_STEP][PASSED] - request.setFollowRedirects(false): null
+
+2019-11-22 15:18:47 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2019-11-22 15:18:48 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/6.har
+
+2019-11-22 15:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-22 15:18:48 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2019-11-22 15:18:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-22 15:18:48 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:48 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:50 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/follow-redirects' .
+
+2019-11-22 15:18:50 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/follow-redirects' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_5.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/requestbin" time="5.075" classname="Test Cases/requestbin" status="PASSED">
+         <system-out><![CDATA[2019-11-22 15:18:50 - [TEST_CASE][PASSED] - Test Cases/requestbin: Test Cases/requestbin
+
+2019-11-22 15:18:50 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:50 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:50 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2019-11-22 15:18:50 - [TEST_STEP][PASSED] - requestObject = findTestObject("requestbin", ["productName":"soft drink 1"]): null
+
+2019-11-22 15:18:50 - [TEST_STEP][PASSED] - response1 = sendRequest(requestObject): Send request successfully
+
+2019-11-22 15:18:51 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/7.har
+
+2019-11-22 15:18:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-22 15:18:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2019-11-22 15:18:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:51 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response1, "success", true): Verify element property value successfully
+
+2019-11-22 15:18:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:51 - [TEST_STEP][PASSED] - response2 = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2019-11-22 15:18:53 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/requests/main/8.har
+
+2019-11-22 15:18:53 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-22 15:18:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "success", true): Verify element property value successfully
+
+2019-11-22 15:18:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - println(getVariables().get("productName")): null
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - println(getVariables().get("test")): null
+
+2019-11-22 15:18:53 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-22 15:18:53 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+2019-11-22 15:18:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "success", true): Verify element property value successfully
+
+2019-11-22 15:18:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-11-22 15:18:53 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:53 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: 
+
+2019-11-22 15:18:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/requestbin' .
+
+2019-11-22 15:18:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/requestbin' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191122_151817/api-suite23/20191122_151817/videos/test_6.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-22 15:18:20 - [TEST_SUITE][FAILED] - api-suite23: Test Cases/url-encoded FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at url-encoded.run(url-encoded:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574410697639.run(TempTestSuite1574410697639.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-22 15:18:20 - [TEST_SUITE][FAILED] - api-suite23: Test Cases/url-encoded FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '200'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at url-encoded.run(url-encoded:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574410697639.run(TempTestSuite1574410697639.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

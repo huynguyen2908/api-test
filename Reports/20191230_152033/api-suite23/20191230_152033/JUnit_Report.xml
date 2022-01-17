@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="api-suite23" time="14.711" tests="1" failures="0" errors="0">
+   <testsuite name="api-suite23" tests="1" failures="0" errors="0" time="14.711" timestamp="2019-12-30 15:20:37" hostname="huynguyen - 192.168.34.29" id="Test Suites/api-suite23">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/huynguyen/Katalon Studio/api/Reports/20191230_152033/api-suite23/20191230_152033"/>
+         <property name="logFiles" value="/Users/huynguyen/Katalon Studio/api/Reports/20191230_152033/api-suite23/20191230_152033/execution0.log"/>
+         <property name="attachments" value="/Users/huynguyen/Katalon Studio/api/Reports/20191230_152033/api-suite23/20191230_152033/videos/test_1.mov"/>
+         <property name="hostName" value="huynguyen - 192.168.34.29"/>
+         <property name="hostAddress" value="192.168.34.29"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+      </properties>
+      <testcase name="Test Cases/url-encoded" time="8.517" classname="Test Cases/url-encoded" status="PASSED">
+         <system-out><![CDATA[2019-12-30 15:20:37 - [TEST_CASE][PASSED] - Test Cases/url-encoded: Test Cases/url-encoded
+
+2019-12-30 15:20:39 - [TEST_STEP][PASSED] - requestObject = findTestObject("url-encoded"): null
+
+2019-12-30 15:20:40 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2019-12-30 15:20:43 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20191230_152033/api-suite23/20191230_152033/requests/main/0.har
+
+2019-12-30 15:20:43 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-12-30 15:20:43 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-12-30 15:20:43 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-12-30 15:20:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-12-30 15:20:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-12-30 15:20:43 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-12-30 15:20:44 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-12-30 15:20:44 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-12-30 15:20:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-12-30 15:20:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-12-30 15:20:44 - [TEST_STEP][PASSED] - runtimeMxBean = ManagementFactory.getRuntimeMXBean(): null
+
+2019-12-30 15:20:44 - [TEST_STEP][PASSED] - arguments = runtimeMxBean.getInputArguments(): null
+
+2019-12-30 15:20:44 - [TEST_STEP][PASSED] - println(arguments): null
+
+2019-12-30 15:20:44 - [TEST_STEP][PASSED] - println(System.getProperty("test")): null
+
+2019-12-30 15:20:44 - [TEST_STEP][PASSED] - println(System.getProperty("test1")): null
+
+2019-12-30 15:20:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-12-30 15:20:46 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/url-encoded' .
+
+2019-12-30 15:20:46 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/url-encoded' .
+[[ATTACHMENT|/Users/huynguyen/Katalon Studio/api/Reports/20191230_152033/api-suite23/20191230_152033/videos/test_1.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-30 15:20:37 - [TEST_SUITE][PASSED] - api-suite23: Test Cases/url-encoded]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

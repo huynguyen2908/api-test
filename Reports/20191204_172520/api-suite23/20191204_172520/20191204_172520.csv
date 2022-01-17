@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2019-12-04 17:25:22,2019-12-04 17:25:33,11.272s,ERROR
+,,,,,,,
+Test Cases/url-encoded,,,,2019-12-04 17:25:22,2019-12-04 17:25:28,6.477s,FAILED
+"requestObject = findTestObject(""url-encoded"")",,,,2019-12-04 17:25:23,2019-12-04 17:25:23,0.490s,PASSED
+response = sendRequestAndVerify(requestObject),,,,2019-12-04 17:25:23,2019-12-04 17:25:26,3.283s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,2019-12-04 17:25:26,2019-12-04 17:25:26,0.029s,FAILED
+Start listener action : sampleAfterTestCase,,,,2019-12-04 17:25:26,2019-12-04 17:25:26,0.013s,PASSED
+Video,,,,2019-12-04 17:25:28,2019-12-04 17:25:28,0.000s,PASSED
+,,,,,,,
+Test Cases/requestbin,,,,2019-12-04 17:25:28,2019-12-04 17:25:31,2.299s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-12-04 17:25:29,2019-12-04 17:25:29,0.001s,PASSED
+Video,,,,2019-12-04 17:25:31,2019-12-04 17:25:31,0.001s,PASSED
+,,,,,,,
+Test Cases/mockoon,,,,2019-12-04 17:25:31,2019-12-04 17:25:33,2.236s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-12-04 17:25:31,2019-12-04 17:25:31,0.000s,PASSED
+Video,,,,2019-12-04 17:25:33,2019-12-04 17:25:33,0.001s,PASSED

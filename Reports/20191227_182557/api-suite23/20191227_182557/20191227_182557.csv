@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2019-12-27 18:29:45,2019-12-27 18:29:50,4.602s,FAILED
+,,,,,,,
+Test Cases/mockoon,,,,2019-12-27 18:29:46,2019-12-27 18:29:50,4.326s,FAILED
+"sendRequest(findTestObject(""mockoon""))",,,,2019-12-27 18:29:46,2019-12-27 18:29:48,1.501s,FAILED
+Start listener action : sampleAfterTestCase,,,,2019-12-27 18:29:48,2019-12-27 18:29:48,0.006s,PASSED
+Video,,,,2019-12-27 18:29:50,2019-12-27 18:29:50,0.001s,PASSED

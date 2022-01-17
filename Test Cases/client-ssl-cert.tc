@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>client-ssl-cert</name>
+   <tag>a</tag>
+   <comment></comment>
+   <testCaseGuid>caee7804-b91e-44d8-9553-96bcae80085a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>81bc3250-b910-4d4f-ad0f-0223b4f37fc9</id>
+      <masked>false</masked>
+      <name>abcdef</name>
+   </variable>
+</TestCaseEntity>

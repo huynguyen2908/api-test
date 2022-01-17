@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/requestbin - Iteration 1","testCaseId":"Test Cases/requestbin","bindedValues":{"dog":"\u0027abc\u0027","productName":"\u0027wine\u0027"}}
+{"testCaseName":"Test Cases/requestbin - Iteration 2","testCaseId":"Test Cases/requestbin","bindedValues":{"dog":"\u0027def\u0027","productName":"\u0027soft drink\u0027"}}
+{"testCaseName":"Test Cases/form-data - Iteration 1","testCaseId":"Test Cases/form-data","bindedValues":{"username":"\u0027abc\u0027"}}
+{"testCaseName":"Test Cases/form-data - Iteration 2","testCaseId":"Test Cases/form-data","bindedValues":{"username":"\u0027def\u0027"}}

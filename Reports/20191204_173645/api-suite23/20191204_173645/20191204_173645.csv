@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2019-12-04 17:36:47,2019-12-04 17:36:50,2.890s,ERROR
+,,,,,,,
+Test Cases/mockoon,,,,2019-12-04 17:36:47,2019-12-04 17:36:50,2.635s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-12-04 17:36:48,2019-12-04 17:36:48,0.011s,PASSED
+Video,,,,2019-12-04 17:36:50,2019-12-04 17:36:50,0.001s,PASSED

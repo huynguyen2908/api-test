@@ -1,0 +1,84 @@
+1
+00:00:00,452 --> 00:00:00,456
+1. response = sendRequest(findTestObject("wsdl", ["operandA":80]))
+
+2
+00:00:03,935 --> 00:00:03,937
+5. verifyResponseStatusCode(response, 200)
+
+3
+00:00:03,956 --> 00:00:03,958
+9. getStatusCode()).isEqualTo(200)
+
+4
+00:00:04,156 --> 00:00:04,159
+13. println(getElementPropertyValue(response, "AddResponse.AddResult"))
+
+5
+00:00:04,384 --> 00:00:04,385
+17. verifyElementPropertyValue(response, "AddResponse.AddResult", 100)
+
+6
+00:00:04,421 --> 00:00:04,422
+21. bodyContent = response.getResponseBodyContent()
+
+7
+00:00:04,428 --> 00:00:04,430
+25. AddResponse = XmlSlurper().parseText(bodyContent)
+
+8
+00:00:04,437 --> 00:00:04,439
+29. response = sendRequestAndVerify(findTestObject("wsdl", ["operandA":10]))
+
+9
+00:00:06,323 --> 00:00:06,325
+1. request = getInstance().getCurrentRequest()
+
+10
+00:00:06,335 --> 00:00:06,336
+5. response = getInstance().getCurrentResponse()
+
+11
+00:00:06,338 --> 00:00:06,340
+9. verifyResponseStatusCode(response, 200)
+
+12
+00:00:06,345 --> 00:00:06,347
+13. getStatusCode()).isEqualTo(200)
+
+13
+00:00:06,348 --> 00:00:06,351
+17. verifyElementPropertyValue(response, "AddResponse.AddResult", 30)
+
+14
+00:00:06,391 --> 00:00:06,392
+21. println(getVariables().get("operandA"))
+
+15
+00:00:06,395 --> 00:00:06,398
+25. println(getVariables().get("operandB"))
+
+16
+00:00:06,401 --> 00:00:06,402
+29. println(getElementText(response, "AddResponse"))
+
+17
+00:00:06,450 --> 00:00:06,451
+33. verifyResponseStatusCode(response, 200)
+
+18
+00:00:06,456 --> 00:00:06,457
+37. verifyElementPropertyValue(response, "AddResponse.AddResult", 30)
+
+19
+00:00:06,515 --> 00:00:06,517
+41. AddResult = AddResult
+
+20
+00:00:06,518 --> 00:00:06,520
+45. println(AddResult.text())
+
+21
+00:00:06,521 --> 00:00:06,523
+49. println(getElementText(response, "AddResponse.AddResult"))
+

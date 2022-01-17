@@ -1,0 +1,64 @@
+1
+00:00:00,230 --> 00:00:00,233
+1. requestObject = findTestObject("requestbin", ["productName":productName, "dog":dog])
+
+2
+00:00:00,586 --> 00:00:00,590
+5. response1 = sendRequest(requestObject)
+
+3
+00:00:03,006 --> 00:00:03,007
+9. verifyResponseStatusCode(response1, 200)
+
+4
+00:00:03,009 --> 00:00:03,010
+13. getStatusCode()).isEqualTo(200)
+
+5
+00:00:03,011 --> 00:00:03,012
+17. verifyElementPropertyValue(response1, "success", true)
+
+6
+00:00:03,053 --> 00:00:03,054
+21. response2 = sendRequestAndVerify(requestObject)
+
+7
+00:00:04,805 --> 00:00:04,808
+1. request = getInstance().getCurrentRequest()
+
+8
+00:00:04,810 --> 00:00:04,815
+5. response = getInstance().getCurrentResponse()
+
+9
+00:00:04,816 --> 00:00:04,818
+9. verifyResponseStatusCode(response, 200)
+
+10
+00:00:04,826 --> 00:00:04,827
+13. getStatusCode()).isEqualTo(200)
+
+11
+00:00:04,828 --> 00:00:04,829
+17. verifyElementPropertyValue(response, "success", true)
+
+12
+00:00:04,876 --> 00:00:04,878
+21. println(getVariables().get("productName"))
+
+13
+00:00:04,884 --> 00:00:04,885
+25. println(getVariables().get("test"))
+
+14
+00:00:04,895 --> 00:00:04,896
+25. verifyResponseStatusCode(response2, 200)
+
+15
+00:00:04,901 --> 00:00:04,902
+29. getStatusCode()).isEqualTo(200)
+
+16
+00:00:04,903 --> 00:00:04,904
+33. verifyElementPropertyValue(response2, "success", true)
+

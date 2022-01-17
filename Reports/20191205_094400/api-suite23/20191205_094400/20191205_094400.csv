@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2019-12-05 09:44:03,2019-12-05 09:44:54,50.951s,PASSED
+,,,,,,,
+Test Cases/url-encoded,,,,2019-12-05 09:44:04,2019-12-05 09:44:45,41.149s,PASSED
+"requestObject = findTestObject(""url-encoded"")",,,,2019-12-05 09:44:05,2019-12-05 09:44:06,0.835s,PASSED
+response = sendRequestAndVerify(requestObject),,,,2019-12-05 09:44:06,2019-12-05 09:44:43,37.375s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-12-05 09:44:43,2019-12-05 09:44:43,0.008s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-05 09:44:43,2019-12-05 09:44:43,0.015s,PASSED
+Video,,,,2019-12-05 09:44:45,2019-12-05 09:44:45,0.001s,PASSED
+,,,,,,,
+Test Cases/requestbin,,,,2019-12-05 09:44:45,2019-12-05 09:44:52,6.678s,PASSED
+"requestObject = findTestObject(""requestbin"", [""productName"":productName, ""dog"":dog])",,,,2019-12-05 09:44:45,2019-12-05 09:44:46,0.219s,PASSED
+response1 = sendRequest(requestObject),,,,2019-12-05 09:44:46,2019-12-05 09:44:48,2.174s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2019-12-05 09:44:48,2019-12-05 09:44:48,0.007s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-12-05 09:44:48,2019-12-05 09:44:48,0.004s,PASSED
+"verifyElementPropertyValue(response1, ""success"", true)",,,,2019-12-05 09:44:48,2019-12-05 09:44:48,0.116s,PASSED
+response2 = sendRequestAndVerify(requestObject),,,,2019-12-05 09:44:48,2019-12-05 09:44:50,1.817s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,2019-12-05 09:44:50,2019-12-05 09:44:50,0.002s,PASSED
+getStatusCode()).isEqualTo(200),,,,2019-12-05 09:44:50,2019-12-05 09:44:50,0.001s,PASSED
+"verifyElementPropertyValue(response2, ""success"", true)",,,,2019-12-05 09:44:50,2019-12-05 09:44:50,0.021s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-05 09:44:50,2019-12-05 09:44:50,0.000s,PASSED
+Video,,,,2019-12-05 09:44:52,2019-12-05 09:44:52,0.001s,PASSED
+,,,,,,,
+Test Cases/mockoon,,,,2019-12-05 09:44:52,2019-12-05 09:44:54,2.562s,PASSED
+"sendRequest(findTestObject(""mockoon""))",,,,2019-12-05 09:44:52,2019-12-05 09:44:52,0.305s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-05 09:44:52,2019-12-05 09:44:52,0.002s,PASSED
+Video,,,,2019-12-05 09:44:54,2019-12-05 09:44:54,0.000s,PASSED

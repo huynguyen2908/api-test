@@ -1,0 +1,28 @@
+1
+00:00:00,323 --> 00:00:00,334
+1. requestObject = findTestObject("url-encoded")
+
+2
+00:00:00,759 --> 00:00:00,761
+5. response = sendRequestAndVerify(requestObject)
+
+3
+00:00:28,086 --> 00:00:28,087
+1. request = getInstance().getCurrentRequest()
+
+4
+00:00:28,178 --> 00:00:28,188
+5. response = getInstance().getCurrentResponse()
+
+5
+00:00:28,191 --> 00:00:28,192
+9. verifyResponseStatusCode(response, 200)
+
+6
+00:00:28,204 --> 00:00:28,214
+13. getStatusCode()).isEqualTo(200)
+
+7
+00:00:28,406 --> 00:00:28,408
+9. verifyResponseStatusCode(response, 200)
+

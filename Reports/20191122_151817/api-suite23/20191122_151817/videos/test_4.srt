@@ -1,0 +1,8 @@
+1
+00:00:00,023 --> 00:00:00,023
+1. response = sendRequest(findTestObject("client-ssl-cert-4"))
+
+2
+00:00:00,504 --> 00:00:00,505
+5. println(response.getStatusCode())
+
