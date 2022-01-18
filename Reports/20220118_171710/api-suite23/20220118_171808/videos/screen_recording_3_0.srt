@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:00,348
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,349 --> 00:00:02,079
+1. sendRequest(findTestObject("mockoon"))
+

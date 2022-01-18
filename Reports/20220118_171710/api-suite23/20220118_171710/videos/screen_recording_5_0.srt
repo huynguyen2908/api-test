@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,241
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,242 --> 00:00:00,360
+1. request = findTestObject("follow-redirects")
+
+3
+00:00:00,361 --> 00:00:00,362
+5. request.setFollowRedirects(false)
+
+4
+00:00:00,363 --> 00:00:03,505
+9. response = sendRequest(request)
+
+5
+00:00:03,506 --> 00:00:03,512
+13. println(response.getStatusCode())
+
+6
+00:00:05,667 --> 00:00:05,668
+1. println(testCaseContext.getTestCaseId())
+

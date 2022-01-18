@@ -1,0 +1,48 @@
+1
+00:00:00,672 --> 00:00:01,539
+1. requestObject = findTestObject("url-encoded")
+
+2
+00:00:01,542 --> 00:00:06,065
+5. response = sendRequestAndVerify(requestObject)
+
+3
+00:00:06,071 --> 00:00:06,093
+1. request = getInstance().getCurrentRequest()
+
+4
+00:00:06,124 --> 00:00:06,153
+5. response = getInstance().getCurrentResponse()
+
+5
+00:00:06,155 --> 00:00:06,189
+9. verifyResponseStatusCode(response, 200)
+
+6
+00:00:06,190 --> 00:00:06,404
+13. getStatusCode()).isEqualTo(200)
+
+7
+00:00:06,405 --> 00:00:06,410
+9. verifyResponseStatusCode(response, 200)
+
+8
+00:00:06,411 --> 00:00:06,440
+13. runtimeMxBean = ManagementFactory.getRuntimeMXBean()
+
+9
+00:00:06,441 --> 00:00:06,451
+17. arguments = runtimeMxBean.getInputArguments()
+
+10
+00:00:06,451 --> 00:00:06,455
+21. println(arguments)
+
+11
+00:00:06,455 --> 00:00:06,457
+25. println(System.getProperty("test"))
+
+12
+00:00:06,458 --> 00:00:06,463
+29. println(System.getProperty("test1"))
+

@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2022-01-18 17:17:15,2022-01-18 17:17:56,41.347s,FAILED
+,,,,,,,
+Test Cases/url-encoded,,,,2022-01-18 17:17:15,2022-01-18 17:17:25,9.226s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:17:15,2022-01-18 17:17:15,0.062s,PASSED
+"requestObject = findTestObject(""url-encoded"")",,,,2022-01-18 17:17:16,2022-01-18 17:17:17,0.924s,PASSED
+response = sendRequestAndVerify(requestObject),,,,2022-01-18 17:17:17,2022-01-18 17:17:22,5.003s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-01-18 17:17:22,2022-01-18 17:17:22,0.007s,PASSED
+runtimeMxBean = ManagementFactory.getRuntimeMXBean(),,,,2022-01-18 17:17:22,2022-01-18 17:17:22,0.083s,PASSED
+arguments = runtimeMxBean.getInputArguments(),,,,2022-01-18 17:17:22,2022-01-18 17:17:22,0.008s,PASSED
+println(arguments),,,,2022-01-18 17:17:22,2022-01-18 17:17:22,0.005s,PASSED
+"println(System.getProperty(""test""))",,,,2022-01-18 17:17:23,2022-01-18 17:17:23,0.004s,PASSED
+"println(System.getProperty(""test1""))",,,,2022-01-18 17:17:23,2022-01-18 17:17:23,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:17:23,2022-01-18 17:17:23,0.001s,PASSED
+Video,,,,2022-01-18 17:17:25,2022-01-18 17:17:25,0.001s,PASSED
+,,,,,,,
+Test Cases/requestbin,,,,2022-01-18 17:17:25,2022-01-18 17:17:32,7.545s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:17:25,2022-01-18 17:17:25,0.008s,PASSED
+"requestObject = findTestObject(""requestbin"", [""productName"":productName, ""dog"":dog])",,,,2022-01-18 17:17:25,2022-01-18 17:17:26,0.448s,PASSED
+response1 = sendRequest(requestObject),,,,2022-01-18 17:17:26,2022-01-18 17:17:28,2.149s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2022-01-18 17:17:28,2022-01-18 17:17:28,0.018s,PASSED
+getStatusCode()).isEqualTo(200),,,,2022-01-18 17:17:28,2022-01-18 17:17:28,0.011s,PASSED
+"verifyElementPropertyValue(response1, ""success"", true)",,,,2022-01-18 17:17:28,2022-01-18 17:17:28,0.150s,PASSED
+response2 = sendRequestAndVerify(requestObject),,,,2022-01-18 17:17:28,2022-01-18 17:17:30,2.023s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,2022-01-18 17:17:30,2022-01-18 17:17:30,0.004s,PASSED
+getStatusCode()).isEqualTo(200),,,,2022-01-18 17:17:30,2022-01-18 17:17:30,0.002s,PASSED
+"verifyElementPropertyValue(response2, ""success"", true)",,,,2022-01-18 17:17:30,2022-01-18 17:17:30,0.017s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:17:30,2022-01-18 17:17:30,0.001s,PASSED
+Video,,,,2022-01-18 17:17:32,2022-01-18 17:17:32,0.000s,PASSED
+,,,,,,,
+Test Cases/wsdl,,,,2022-01-18 17:17:32,2022-01-18 17:17:35,3.145s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:17:32,2022-01-18 17:17:32,0.007s,PASSED
+"response = sendRequest(findTestObject(""wsdl"", [""operandA"":80]))",,,,2022-01-18 17:17:33,2022-01-18 17:17:33,0.503s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:17:33,2022-01-18 17:17:33,0.000s,PASSED
+Video,,,,2022-01-18 17:17:35,2022-01-18 17:17:35,0.001s,PASSED
+,,,,,,,
+Test Cases/client-ssl-cert,,,a,2022-01-18 17:17:35,2022-01-18 17:17:39,3.438s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:17:35,2022-01-18 17:17:35,0.006s,PASSED
+"response = sendRequest(findTestObject(""client-ssl-cert-4""))",,,,2022-01-18 17:17:36,2022-01-18 17:17:37,0.978s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:17:37,2022-01-18 17:17:37,0.000s,PASSED
+Video,,,,2022-01-18 17:17:39,2022-01-18 17:17:39,0.001s,PASSED
+,,,,,,,
+Test Cases/follow-redirects,,abc huy dev 123,,2022-01-18 17:17:39,2022-01-18 17:17:44,5.615s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:17:39,2022-01-18 17:17:39,0.001s,PASSED
+"request = findTestObject(""follow-redirects"")",,,,2022-01-18 17:17:39,2022-01-18 17:17:39,0.118s,PASSED
+request.setFollowRedirects(false),,,,2022-01-18 17:17:39,2022-01-18 17:17:39,0.002s,PASSED
+response = sendRequest(request),,,,2022-01-18 17:17:39,2022-01-18 17:17:42,3.143s,PASSED
+println(response.getStatusCode()),,,,2022-01-18 17:17:42,2022-01-18 17:17:42,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:17:42,2022-01-18 17:17:42,0.002s,PASSED
+Video,,,,2022-01-18 17:17:44,2022-01-18 17:17:44,0.002s,PASSED
+,,,,,,,
+Test Cases/requestbin,,,,2022-01-18 17:17:44,2022-01-18 17:17:52,7.287s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:17:44,2022-01-18 17:17:44,0.004s,PASSED
+"requestObject = findTestObject(""requestbin"", [""productName"":productName, ""dog"":dog])",,,,2022-01-18 17:17:44,2022-01-18 17:17:45,0.472s,PASSED
+response1 = sendRequest(requestObject),,,,2022-01-18 17:17:45,2022-01-18 17:17:47,2.372s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2022-01-18 17:17:47,2022-01-18 17:17:47,0.004s,PASSED
+getStatusCode()).isEqualTo(200),,,,2022-01-18 17:17:47,2022-01-18 17:17:47,0.001s,PASSED
+"verifyElementPropertyValue(response1, ""success"", true)",,,,2022-01-18 17:17:47,2022-01-18 17:17:47,0.041s,PASSED
+response2 = sendRequestAndVerify(requestObject),,,,2022-01-18 17:17:47,2022-01-18 17:17:50,2.211s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,2022-01-18 17:17:50,2022-01-18 17:17:50,0.006s,PASSED
+getStatusCode()).isEqualTo(200),,,,2022-01-18 17:17:50,2022-01-18 17:17:50,0.008s,PASSED
+"verifyElementPropertyValue(response2, ""success"", true)",,,,2022-01-18 17:17:50,2022-01-18 17:17:50,0.033s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:17:50,2022-01-18 17:17:50,0.000s,PASSED
+Video,,,,2022-01-18 17:17:52,2022-01-18 17:17:52,0.001s,PASSED
+,,,,,,,
+Test Cases/mockoon,,,,2022-01-18 17:17:52,2022-01-18 17:17:56,4.411s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:17:52,2022-01-18 17:17:52,0.004s,PASSED
+"sendRequest(findTestObject(""mockoon""))",,,,2022-01-18 17:17:52,2022-01-18 17:17:54,1.869s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:17:54,2022-01-18 17:17:54,0.000s,PASSED
+Video,,,,2022-01-18 17:17:56,2022-01-18 17:17:56,0.000s,PASSED

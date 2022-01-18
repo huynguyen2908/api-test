@@ -1,0 +1,8 @@
+1
+00:00:00,253 --> 00:00:01,334
+1. response = sendRequest(findTestObject("wsdl", ["operandA":80]))
+
+2
+00:00:03,595 --> 00:00:03,596
+1. println(testCaseContext.getTestCaseId())
+

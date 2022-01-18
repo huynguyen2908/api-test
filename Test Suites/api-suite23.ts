@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>f627eb63-982c-4ab8-9460-0b6ac4f24100</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/requestbin</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -67,13 +67,13 @@
    <testCaseLink>
       <guid>e2b8f30c-4ff8-44ef-b185-146a3a6cfb7c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/follow-redirects</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e3a5d7ea-51a7-4a58-a515-20b3eccc377d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/requestbin</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

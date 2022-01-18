@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-suite23,,,,2022-01-18 17:18:13,2022-01-18 17:18:25,12.589s,FAILED
+,,,,,,,
+Test Cases/wsdl,,,,2022-01-18 17:18:13,2022-01-18 17:18:17,4.008s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:18:13,2022-01-18 17:18:13,0.105s,PASSED
+"response = sendRequest(findTestObject(""wsdl"", [""operandA"":80]))",,,,2022-01-18 17:18:14,2022-01-18 17:18:15,0.881s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:18:15,2022-01-18 17:18:15,0.002s,PASSED
+Video,,,,2022-01-18 17:18:17,2022-01-18 17:18:17,0.001s,PASSED
+,,,,,,,
+Test Cases/client-ssl-cert,,,a,2022-01-18 17:18:17,2022-01-18 17:18:21,4.075s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:18:17,2022-01-18 17:18:17,0.003s,PASSED
+"response = sendRequest(findTestObject(""client-ssl-cert-4""))",,,,2022-01-18 17:18:18,2022-01-18 17:18:19,1.626s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:18:19,2022-01-18 17:18:19,0.001s,PASSED
+Video,,,,2022-01-18 17:18:21,2022-01-18 17:18:21,0.001s,PASSED
+,,,,,,,
+Test Cases/mockoon,,,,2022-01-18 17:18:21,2022-01-18 17:18:25,4.119s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-18 17:18:21,2022-01-18 17:18:21,0.005s,PASSED
+"sendRequest(findTestObject(""mockoon""))",,,,2022-01-18 17:18:22,2022-01-18 17:18:23,1.717s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-18 17:18:23,2022-01-18 17:18:23,0.001s,PASSED
+Video,,,,2022-01-18 17:18:25,2022-01-18 17:18:25,0.001s,PASSED

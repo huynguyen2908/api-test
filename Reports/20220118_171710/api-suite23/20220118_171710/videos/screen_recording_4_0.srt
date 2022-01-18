@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:00,299
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,302 --> 00:00:01,284
+1. response = sendRequest(findTestObject("client-ssl-cert-4"))
+
+3
+00:00:03,460 --> 00:00:03,460
+1. println(testCaseContext.getTestCaseId())
+
