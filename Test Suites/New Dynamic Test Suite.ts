@@ -13,5 +13,5 @@
    <testSuiteGuid>a86bfd04-aeb6-402b-964b-999e3e79816e</testSuiteGuid>
    <filteringExtension>com.katalon.plugin.dynamic_execution.DynamicFilteringTestSuiteImpl</filteringExtension>
    <filteringPlugin>com.katalon.katalon-studio-dynamic-execution-plugin</filteringPlugin>
-   <filteringText></filteringText>
+   <filteringText>name=(form-data) </filteringText>
 </FilteringTestSuiteEntity>
