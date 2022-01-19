@@ -3,7 +3,7 @@
    <description></description>
    <name>profile tiếng tàu nè 中國話</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'bbb'</initValue>
