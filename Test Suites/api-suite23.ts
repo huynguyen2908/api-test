@@ -23,6 +23,12 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6993ceda-f2a8-4fa7-8bd9-4274e5b890c5</testSuiteGuid>
    <testCaseLink>
+      <guid>18650281-6c6e-47bd-917a-176d765ef330</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/abc/New Test Case (1)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2f1c1306-02b5-4b93-b22d-37c3ce97c4bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -93,5 +99,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/mockoon</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0daa7423-d038-4ad1-9ff4-464977450725</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/abc/New Test Case (2)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b8f1de8-4597-4fcd-a2f5-c223ace8e308</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/abc/New Test Case (12)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
