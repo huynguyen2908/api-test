@@ -122,6 +122,6 @@
       <guid>32b6bc9b-e3ac-4d7e-bfdf-4efc6779de1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tiếng thái ahihi ภาษาไทย</testCaseId>
+      <testCaseId>Test Cases/abc/tiếng thái ahihi ภาษาไทย</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
