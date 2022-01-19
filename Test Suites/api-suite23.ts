@@ -23,24 +23,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6993ceda-f2a8-4fa7-8bd9-4274e5b890c5</testSuiteGuid>
    <testCaseLink>
-      <guid>f627eb63-982c-4ab8-9460-0b6ac4f24100</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/requestbin</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>988d0f73-6513-40f0-a05f-99b72300db29</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>369ce5da-6793-42b9-a02f-6f1aa1284c03</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>0f32fc81-5708-4cd8-8b3a-4e92971315c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -83,27 +65,33 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0daa7423-d038-4ad1-9ff4-464977450725</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/abc/New Test Case (2)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2b8f1de8-4597-4fcd-a2f5-c223ace8e308</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/abc/New Test Case (12)</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d89a7178-9302-4170-a725-2d4b5558ee6f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/tiếng tàu ahihi 中国话 tttaa</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>32b6bc9b-e3ac-4d7e-bfdf-4efc6779de1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/abc/tiếng thái ahihi ภาษาไทย akkkkttmmnn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f627eb63-982c-4ab8-9460-0b6ac4f24100</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/requestbin</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>988d0f73-6513-40f0-a05f-99b72300db29</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>369ce5da-6793-42b9-a02f-6f1aa1284c03</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
