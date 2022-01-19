@@ -54,6 +54,11 @@ public class GlobalVariable {
      */
     public static Object contentType
      
+    /**
+     * <p></p>
+     */
+    public static Object aaa
+     
 
     static {
         try {
@@ -70,6 +75,7 @@ public class GlobalVariable {
             test = selectedVariables['test']
             dummy = selectedVariables['dummy']
             contentType = selectedVariables['contentType']
+            aaa = selectedVariables['aaa']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
