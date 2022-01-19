@@ -112,4 +112,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/abc/New Test Case (12)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d89a7178-9302-4170-a725-2d4b5558ee6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tiếng tàu ahihi 中国话</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>32b6bc9b-e3ac-4d7e-bfdf-4efc6779de1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tiếng thái ahihi ภาษาไทย</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
