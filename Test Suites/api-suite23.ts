@@ -113,12 +113,6 @@
       <testCaseId>Test Cases/tiếng tàu ahihi 中国话 tttaa</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2412a59c-2363-4633-bd9e-a99504eb3f68</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/mockoon aaaaa</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>32b6bc9b-e3ac-4d7e-bfdf-4efc6779de1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
