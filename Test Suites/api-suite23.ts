@@ -23,12 +23,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6993ceda-f2a8-4fa7-8bd9-4274e5b890c5</testSuiteGuid>
    <testCaseLink>
-      <guid>18650281-6c6e-47bd-917a-176d765ef330</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/abc/New Test Case (1)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f627eb63-982c-4ab8-9460-0b6ac4f24100</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
