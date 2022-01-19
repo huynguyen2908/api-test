@@ -23,16 +23,16 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6993ceda-f2a8-4fa7-8bd9-4274e5b890c5</testSuiteGuid>
    <testCaseLink>
-      <guid>18650281-6c6e-47bd-917a-176d765ef330</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/abc/New Test Case (1)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d89a7178-9302-4170-a725-2d4b5558ee6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/tiếng tàu ahihi 中国话</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18650281-6c6e-47bd-917a-176d765ef330</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/abc/New Test Case (1)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2f1c1306-02b5-4b93-b22d-37c3ce97c4bb</guid>
@@ -63,12 +63,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/wsdl</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>32b6bc9b-e3ac-4d7e-bfdf-4efc6779de1a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/abc/tiếng thái ahihi ภาษาไทย</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0f32fc81-5708-4cd8-8b3a-4e92971315c6</guid>
@@ -107,12 +101,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2412a59c-2363-4633-bd9e-a99504eb3f68</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/mockoon</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>0daa7423-d038-4ad1-9ff4-464977450725</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -123,5 +111,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/abc/New Test Case (12)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2412a59c-2363-4633-bd9e-a99504eb3f68</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/mockoon</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>32b6bc9b-e3ac-4d7e-bfdf-4efc6779de1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/abc/tiếng thái ahihi ภาษาไทย</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
