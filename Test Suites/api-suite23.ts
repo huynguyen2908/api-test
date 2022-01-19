@@ -23,12 +23,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6993ceda-f2a8-4fa7-8bd9-4274e5b890c5</testSuiteGuid>
    <testCaseLink>
-      <guid>d89a7178-9302-4170-a725-2d4b5558ee6f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/tiếng tàu ahihi 中国话</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>18650281-6c6e-47bd-917a-176d765ef330</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -111,6 +105,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/abc/New Test Case (12)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d89a7178-9302-4170-a725-2d4b5558ee6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/tiếng tàu ahihi 中国话 tttaa</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2412a59c-2363-4633-bd9e-a99504eb3f68</guid>
