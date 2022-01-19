@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="api-suite23" time="35.031" tests="4" failures="0" errors="0">
+   <testsuite name="api-suite23" tests="4" failures="0" errors="0" time="35.031" skipped="0" timestamp="2022-01-18 17:23:51" hostname="huynguyen - client.openvpn.net" id="Test Suites/api-suite23">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346"/>
+         <property name="logFiles" value="/Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="huynguyen - client.openvpn.net"/>
+         <property name="hostAddress" value="127.94.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/url-encoded" time="9.828" classname="Test Cases/url-encoded" status="PASSED">
+         <system-out><![CDATA[2022-01-18 17:23:51 - [TEST_CASE][PASSED] - Test Cases/url-encoded: Test Cases/url-encoded
+
+2022-01-18 17:23:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-01-18 17:23:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-01-18 17:23:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-01-18 17:23:53 - [TEST_STEP][PASSED] - requestObject = findTestObject("url-encoded"): null
+
+2022-01-18 17:23:54 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2022-01-18 17:23:58 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346/requests/main/0.har
+
+2022-01-18 17:23:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-18 17:23:58 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-18 17:23:58 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-18 17:23:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-18 17:23:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-18 17:23:59 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-18 17:23:59 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-18 17:23:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - runtimeMxBean = ManagementFactory.getRuntimeMXBean(): null
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - arguments = runtimeMxBean.getInputArguments(): null
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - println(arguments): null
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - println(System.getProperty("test")): null
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - println(System.getProperty("test1")): null
+
+2022-01-18 17:23:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-18 17:24:01 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/url-encoded' .
+
+2022-01-18 17:24:01 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/url-encoded' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/requestbin" time="8.091" classname="Test Cases/requestbin" status="PASSED">
+         <system-out><![CDATA[2022-01-18 17:24:01 - [TEST_CASE][PASSED] - Test Cases/requestbin: Test Cases/requestbin
+
+2022-01-18 17:24:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-01-18 17:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-01-18 17:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-01-18 17:24:02 - [TEST_STEP][PASSED] - requestObject = findTestObject("requestbin", ["productName":productName, "dog":dog]): null
+
+2022-01-18 17:24:02 - [TEST_STEP][PASSED] - response1 = sendRequest(requestObject): Send request successfully
+
+2022-01-18 17:24:04 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346/requests/main/1.har
+
+2022-01-18 17:24:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-18 17:24:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2022-01-18 17:24:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:24:04 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-18 17:24:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response1, "success", true): Verify element property value successfully
+
+2022-01-18 17:24:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-18 17:24:05 - [TEST_STEP][PASSED] - response2 = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2022-01-18 17:24:06 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346/requests/main/2.har
+
+2022-01-18 17:24:07 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-18 17:24:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "success", true): Verify element property value successfully
+
+2022-01-18 17:24:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - println(getVariables().get("productName")): null
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - println(getVariables().get("test")): null
+
+2022-01-18 17:24:07 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-18 17:24:07 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+2022-01-18 17:24:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "success", true): Verify element property value successfully
+
+2022-01-18 17:24:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-18 17:24:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-18 17:24:09 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/requestbin' .
+
+2022-01-18 17:24:09 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/requestbin' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/follow-redirects" time="3.553" classname="Test Cases/follow-redirects" status="PASSED">
+         <system-out><![CDATA[2022-01-18 17:24:09 - [TEST_CASE][PASSED] - Test Cases/follow-redirects: Test Cases/follow-redirects
+
+2022-01-18 17:24:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-01-18 17:24:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-01-18 17:24:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-01-18 17:24:09 - [TEST_STEP][PASSED] - request = findTestObject("follow-redirects"): null
+
+2022-01-18 17:24:09 - [TEST_STEP][PASSED] - request.setFollowRedirects(false): null
+
+2022-01-18 17:24:09 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2022-01-18 17:24:10 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346/requests/main/3.har
+
+2022-01-18 17:24:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-18 17:24:11 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2022-01-18 17:24:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-18 17:24:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/follow-redirects' .
+
+2022-01-18 17:24:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/follow-redirects' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/requestbin" time="6.698" classname="Test Cases/requestbin" status="PASSED">
+         <system-out><![CDATA[2022-01-18 17:24:13 - [TEST_CASE][PASSED] - Test Cases/requestbin: Test Cases/requestbin
+
+2022-01-18 17:24:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-01-18 17:24:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-01-18 17:24:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-01-18 17:24:13 - [TEST_STEP][PASSED] - requestObject = findTestObject("requestbin", ["productName":productName, "dog":dog]): null
+
+2022-01-18 17:24:13 - [TEST_STEP][PASSED] - response1 = sendRequest(requestObject): Send request successfully
+
+2022-01-18 17:24:15 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346/requests/main/4.har
+
+2022-01-18 17:24:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-18 17:24:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2022-01-18 17:24:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:24:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-18 17:24:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response1, "success", true): Verify element property value successfully
+
+2022-01-18 17:24:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-18 17:24:15 - [TEST_STEP][PASSED] - response2 = sendRequestAndVerify(requestObject): Send request and verify the response successfully
+
+2022-01-18 17:24:17 - [MESSAGE][INFO] - HAR: /Users/huynguyen/Katalon Studio/api/Reports/20220118_172346/api-suite23/20220118_172346/requests/main/5.har
+
+2022-01-18 17:24:17 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-18 17:24:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "success", true): Verify element property value successfully
+
+2022-01-18 17:24:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - println(getVariables().get("productName")): null
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - println(getVariables().get("test")): null
+
+2022-01-18 17:24:17 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-18 17:24:17 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+2022-01-18 17:24:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "success", true): Verify element property value successfully
+
+2022-01-18 17:24:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-18 17:24:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-18 17:24:19 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/requestbin' .
+
+2022-01-18 17:24:19 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/requestbin' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-18 17:23:51 - [TEST_SUITE][PASSED] - api-suite23: Test Cases/requestbin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
