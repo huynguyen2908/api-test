@@ -12,11 +12,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object aaa
-     
-    /**
-     * <p></p>
-     */
     public static Object xpath
      
     /**
@@ -59,6 +54,11 @@ public class GlobalVariable {
      */
     public static Object contentType
      
+    /**
+     * <p></p>
+     */
+    public static Object aaa
+     
 
     static {
         try {
@@ -66,7 +66,6 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
     
-            aaa = selectedVariables['aaa']
             xpath = selectedVariables['xpath']
             tag = selectedVariables['tag']
             productName = selectedVariables['productName']
@@ -76,6 +75,7 @@ public class GlobalVariable {
             test = selectedVariables['test']
             dummy = selectedVariables['dummy']
             contentType = selectedVariables['contentType']
+            aaa = selectedVariables['aaa']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
