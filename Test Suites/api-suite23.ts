@@ -29,12 +29,6 @@
       <testCaseId>Test Cases/abc/New Test Case (1)</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f1c1306-02b5-4b93-b22d-37c3ce97c4bb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/url-encoded</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f627eb63-982c-4ab8-9460-0b6ac4f24100</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -53,12 +47,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9cc63cc2-0e16-4792-8627-cce6dc763321</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/wsdl</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>0f32fc81-5708-4cd8-8b3a-4e92971315c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -75,6 +63,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/follow-redirects</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f1c1306-02b5-4b93-b22d-37c3ce97c4bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/url-encoded</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e3a5d7ea-51a7-4a58-a515-20b3eccc377d</guid>
